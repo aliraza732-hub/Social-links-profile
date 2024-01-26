@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    --primary-green: hsl(75, 94%, 57%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-grey: hsl(0, 0%, 20%);
+    --neutral-dark-grey: hsl(0, 0%, 12%);
+    --neutral-off-black: hsl(0, 0%, 8%);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutral-off-black);
+    color: var(--neutral-white);
+    min-height: 100vh;
+    text-align: center;
+    
+  }
+  .container {
+    background-color: var(--neutral-dark-grey);
+    padding: 25px;
+    border-radius: 5px;
+    min-width: 350px;
+   box-shadow: 0 0 10px rgba(0,0,0, 0.1)
+  }
+  #image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+  .heading {
+    /* text-align: center; */
+    margin-bottom: 0.7rem;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+  }
+  .location {
+    /* text-align: center; */
+    /* margin-bottom: 1rem; */
+    color: var(--primary-green);
+    font-weight: 600;
+  }
+  .role {
+    margin-bottom: 1.7rem;
+    margin-top: 1.3rem;
+  }
+  a{
+    background-color: var(--neutral-grey);
+    color: var(--neutral-white);
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  a:hover {
+    background-color: var(--primary-green);
+    color: var(--neutral-off-black);
+    transform: scale(1);
+  }
+
+  
